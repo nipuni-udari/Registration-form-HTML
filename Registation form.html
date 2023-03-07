@@ -1,0 +1,74 @@
+
+<html>
+    <head>
+        <title>
+           Registation form 
+        </title>
+    </head>
+
+    <body>
+        <h1>Registation form </h1>
+        <form>
+        <lable>First name:<input type="text" name="first name" place holder="first name" required></lable>
+        <lable>Last name:<input type="text" name="last name" place holder="last name" required></lable>
+        <br>
+
+        <label>Male <input type="radio" name="gender" value="male"></label>
+        <label>Female <input type="radio" name="gender" value="female"></label>
+        <label>other <input type="radio" name="gender" value="other"></label>
+        <br>
+
+        <label>Email: <input type="email" name="email" placeholder="your email" required > </label>
+        <label>Password: <input type="password" name="password" placeholder="your password" pattern="{5,10}" required title="Please enter password of length 5 to 10"></label>
+        <br>
+
+        <label for="">Birthday</label>
+        <select id="birthday" name="Month">
+        <option>Month</option>
+        <option>Jan</option>
+        <option>Feb</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>Aug</option>
+        <option>Sep</option>
+        <option>Oct</option>
+        <option>Nov</option>
+        <option>Dec</option>
+    </select>
+
+    <select id="birthday" name="Day">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        
+    </select> <br>
+
+    <select id="birthday" name="Year">
+        <option>1999</option>
+        <option>2000</option>
+        <option>2023</option>
+        <option>1894</option>
+        <option>2005</option>
+        <option>2006</option>
+        
+    </select><br>
+
+    <label>
+        I agree to the term and conditions
+        <input type="checkbox" name="check">
+    </label><br>
+
+    <input type="submit" name="submit">
+
+   </form>
+
+
+
+    </body>
+</html>
